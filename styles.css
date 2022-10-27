@@ -1,0 +1,39 @@
+#body {
+    background-color: #393E46;
+    color: #4ECCA3;
+}
+
+h3,
+p {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+
+/* TOP */
+
+.headerOne {
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    text-shadow: 5px 0 #232931;
+}
+
+.rollDice {
+    width: 70px;
+    cursor: pointer;
+}
+
+
+
+/* MIDDLE */
+
+img {
+    width: 70%;
+}
+
+
+/* FOOTER */
+footer {
+    color: #EEEEEE;
+    margin-top: 5%;
+}
