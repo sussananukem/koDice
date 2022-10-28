@@ -14,26 +14,106 @@ p {
 
 .headerOne {
     font-family: 'Lobster', cursive;
-    font-size: 8rem;
+
     text-shadow: 5px 0 #232931;
 }
 
 .rollDice {
-    width: 70px;
+
     cursor: pointer;
 }
 
 
 
-/* MIDDLE */
 
-img {
-    width: 70%;
-}
 
 
 /* FOOTER */
 footer {
     color: #EEEEEE;
     margin-top: 5%;
+}
+
+/* PHONE */
+@media only screen and (min-width: 320px) {
+
+    /* TOP */
+    .headerThree {
+        margin-top: 10%;
+        font-size: 1rem;
+    }
+
+    .headerOne {
+        font-size: 2rem;
+    }
+
+    .rollDice {
+        margin-top: 30px;
+        width: 50%;
+    }
+
+    /* MIDDLE */
+    .imgOne,
+    .imgTwo {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+
+        margin-top: 70%;
+    }
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+
+    /* TOP */
+    .headerThree {
+        font-size: 2rem;
+    }
+
+    .headerOne {
+        font-size: 5rem;
+    }
+
+    .rollDice {
+        margin-top: 48px;
+        width: 40%;
+    }
+
+    /* MIDDLE */
+
+
+    /* FOOTER */
+    footer {
+
+        margin-top: 20%;
+    }
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 1044px) {
+
+    /* TOP */
+    .headerOne {
+        font-size: 7rem;
+    }
+
+    .rollDice {
+        margin-top: 80px;
+        width: 30%;
+    }
+
+    /* MIDDLE */
+    .imgOne,
+    .imgTwo {
+        width: 60%;
+    }
+
+    /* FOOTER */
+    footer {
+
+        margin-top: 7%;
+    }
 }
