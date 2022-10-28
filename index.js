@@ -8,6 +8,14 @@ element.addEventListener("click", myFunction);
 function myFunction() {
     //Animation to do when the dice is clicked: FIX BUG HERE LATER(Animate on each click)
     element.classList.add("animate__animated", "animate__rotateIn");
+    //Remove it after 5 seconds
+    setTimeout(
+        function () {
+            element.classList.remove("animate__animated", "animate__rotateIn");
+        },
+        500
+    );
+
 
     //Getting random number generator for each dice
     var randomNumber1 = Math.floor((Math.random() * 6) + 1);
