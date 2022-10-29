@@ -12,6 +12,7 @@ function myFunction() {
     //Animation to do when the dice is clicked: FIX BUG HERE LATER(Animate on each click)
     element.classList.add("animate__animated", "animate__rotateIn");
     //Remove it after 5 seconds
+    // Also display dice results after 5 seconds
     setTimeout(
         function () {
             element.classList.remove("animate__animated", "animate__rotateIn");
